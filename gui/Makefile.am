@@ -20,7 +20,7 @@ DEFS = @DEFS@ \
 	-DSBINDIR=\"@sbindir@\"				\
 	$(NULL)
 
-INCLUDES = \
+AM_CPPFLAGS = \
 	-I.						\
 	-I..						\
 	-I$(top_srcdir)/daemon				\

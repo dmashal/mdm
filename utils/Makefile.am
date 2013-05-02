@@ -4,7 +4,7 @@ DEFS = @DEFS@ -DMDM_CONFIG_FILE=\"$(mdmconfdir)/mdm.conf\" \
 	-DMDM_FACTORY_CONFIG_FILE=\"$(mdmconfdir)/factory-mdm.conf\" \
 	-DMDM_GLADE_DIR=\"@datadir@/mdm\"
 
-INCLUDES = \
+AM_CPPFLAGS = \
 	-I.						\
 	-I..						\
 	-I$(top_srcdir)/daemon				\

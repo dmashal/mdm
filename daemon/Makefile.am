@@ -2,7 +2,7 @@ NULL =
 
 # Note that we have cflags for just about everything even if
 # we don't link to everything
-INCLUDES = \
+AM_CPPFLAGS = \
 	-I.						\
 	-I..						\
 	-I$(top_srcdir)/common				\

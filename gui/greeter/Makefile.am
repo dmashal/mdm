@@ -1,7 +1,7 @@
 SUBDIRS = . themes
 
 ## Process this file with automake to produce makefile.in
-INCLUDES = \
+AM_CPPFLAGS = \
 	-I.						\
 	-I$(top_srcdir)/gui				\
 	-I$(top_srcdir)/daemon				\
